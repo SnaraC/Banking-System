@@ -4,14 +4,14 @@
 
 Software: C++ (stack, queue, binary search tree, input/out(read,write,and delete))
 
-**Context:** banking application with processes  transactions consists of three phases.
+**Context:** banking application with processes  transactions consists of three phases:
 1. The program will read in a string of tractions from a file to in-memory queue.
    These transactions can open accounts, withdraw funds, deposit funds, transfer funds, or to print out the transactional history.
 2. The program will read from the queue and process in order.
 3. After the queue has been depleted, the program will print out all open account balanced and information. 
 
 A input file named BankTransIn.txt will consist the following:
-  - Five types of transactions as a character beginning the line (O(open an account), Withdraw(withdraw fund), Deposit(deposit fund), Transfer(transfer between funds or between clients), History (display history of all transactions), 
+  - Five types of transactions as a character beginning the line (O(open an account), W(withdraw fund), D(deposit fund), T(transfer between funds or between clients), H (display history of all transactions), 
   - Client name and account number following by O (open an account).
   - Account number and cash amount following by W, D, and T.
   - Account number following by the H to display the client account history and info.
